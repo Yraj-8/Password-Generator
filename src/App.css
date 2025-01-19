@@ -1,0 +1,101 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  padding: 24px;
+  background-color: #242324;
+border: none;
+border-radius: 10px;
+
+}
+/* .top-header{
+
+  color: #2a8b8b;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  box-sizing: 2px 2px 2px ;
+  margin-bottom: 8px;
+  padding: 10px;
+  font-weight: 900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+} */
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 20px;
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cpybtn{
+  height: 30px;
+  font-size: 10px;
+}
+.charLength{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.charLength span{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 100%;
+
+}
+.checkboxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 15px;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.checkboxes div{
+  display: flex;
+
+}
+.genpas{
+width: 100%;
+padding: 15px;
+font-size:20px ;
+
+}
+.errmsg{
+  color: red;
+  padding: 5px;
+}
+.password-strength{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: aliceblue;
+}
